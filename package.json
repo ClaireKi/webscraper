@@ -1,0 +1,37 @@
+{
+  "name": "node_crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --max-old-space-size=4096 --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2"
+  },
+  "dependencies": {
+    "@grapecity/spread-excelio": "^14.1.0",
+    "@grapecity/spread-sheets": "^14.1.0",
+    "cheerio": "^1.0.0-rc.9",
+    "csv-parse": "^4.15.4",
+    "exceljs": "^4.2.1",
+    "express": "^4.17.1",
+    "iconv": "^3.0.0",
+    "iconv-lite": "^0.6.3",
+    "jquery": "^3.6.0",
+    "jschardet": "^3.0.0",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "xlsx": "^0.17.0"
+  }
+}
